@@ -84,7 +84,6 @@ main img.mobile {
 .landing {
     position: relative;
 }
-
 @media (max-width: 767px) {
     .landing .logo img{
     max-width: 150px;
@@ -110,8 +109,14 @@ main img.mobile {
     }
 }
 .container img {
+    width: 600px;
+    max-width: 100%;
+}
+@media (min-width: 767px) {
+    .container img {
     min-width: 600px;
     max-width: 100%;
+}
 }
 .container .text {
     flex: 1;
