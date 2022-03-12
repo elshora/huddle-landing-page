@@ -113,7 +113,7 @@ main img.mobile {
     }
 }
 .container img {
-    width: 600px;
+    min-width: 600px;
     max-width: 100%;
 }
 .container .text {
